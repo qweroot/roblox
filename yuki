@@ -1,0 +1,14 @@
+local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/xLRUSiKx'))()
+local Window = OrionLib:MakeWindow({Name = "YUki", HidePremium = false, SaveConfig = true,IntroText = "yuik脚本", ConfigFolder = "乱输"})
+local Tab = Window:MakeTab({
+    Name = "功能分类",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+这个是功能的格式，可以理解成功能快捷键
+Tab:AddButton({
+	Name = "99夜",
+	Callback = function(loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/99-nights-in-the-forest/refs/heads/main/Main"))())
+脚本
+end
+})
