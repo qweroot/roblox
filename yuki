@@ -5,7 +5,6 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-这个是功能的格式，可以理解成功能快捷键
 Tab:AddButton({
 	Name = "99夜",
 	Callback = function(loadstring(game:HttpGet("https://raw.githubusercontent.com/m00ndiety/99-nights-in-the-forest/refs/heads/main/Main"))())
